@@ -1,4 +1,4 @@
-<?php include "layout/header.php";?>
+<?php include "layout/header.php"; ?>
 
 <body>
     <!-- ============================================================== -->
@@ -18,14 +18,14 @@
         <!-- ============================================================== -->
         <!-- Topbar header - style you can find in pages.scss -->
         <!-- ============================================================== -->
-        <?php include "layout/navbar.php";?>
+        <?php include "layout/navbar.php"; ?>
         <!-- ============================================================== -->
         <!-- End Topbar header -->
         <!-- ============================================================== -->
         <!-- ============================================================== -->
         <!-- Left Sidebar - style you can find in sidebar.scss  -->
         <!-- ============================================================== -->
-       <?php include "layout/menu.php";?>
+        <?php include "layout/menu.php"; ?>
         <!-- ============================================================== -->
         <!-- End Left Sidebar - style you can find in sidebar.scss  -->
         <!-- ============================================================== -->
@@ -49,7 +49,7 @@
                             </nav>
                         </div>
                     </div>
-                   
+
                 </div>
             </div>
             <!-- ============================================================== -->
@@ -65,7 +65,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="card">
-                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam asperiores maxime debitis est libero eum, praesentium ipsam, voluptates, nesciunt eos ea totam illo enim sint at optio labore possimus earum quasi. Quidem autem veniam voluptas neque deleniti corporis ducimus non accusantium, similique quibusdam dolorum id cupiditate omnis distinctio. Quaerat nam itaque, eaque consectetur quam, porro temporibus, aliquam molestias tempore pariatur distinctio nesciunt. Omnis numquam excepturi praesentium suscipit distinctio voluptates quas recusandae voluptatum culpa reprehenderit, rem obcaecati qui beatae, dolorem vitae quod commodi. Expedita, assumenda pariatur non, numquam ex quibusdam ratione quod doloremque recusandae exercitationem tenetur quidem eveniet quis cum sint possimus laudantium sapiente earum laboriosam reiciendis adipisci nisi nam reprehenderit? Consectetur temporibus dolore voluptates, deleniti ab porro minima molestias quaerat odit dolorem nam, sunt doloribus itaque. Quaerat mollitia autem laborum architecto tempore voluptate labore alias officiis. Optio voluptatem ullam deserunt at iusto eos illo earum voluptatum sed eum quos doloremque officia eligendi impedit omnis molestiae, repellendus voluptatibus dignissimos veniam! Distinctio, minima inventore dolores quibusdam impedit sint! Ratione nesciunt aliquam distinctio quisquam hic, unde dolorum, dolores error praesentium adipisci, cupiditate aperiam. Laudantium sequi amet, soluta suscipit iusto enim reprehenderit ad tenetur animi ab, labore obcaecati ipsam corporis repudiandae eum saepe non?</P>
+
                         </div>
                     </div>
                 </div>
@@ -86,7 +86,7 @@
             <!-- ============================================================== -->
             <!-- footer -->
             <!-- ============================================================== -->
-           <?php include "layout/footer.php";?>
+            <?php include "layout/footer.php"; ?>
             <!-- ============================================================== -->
             <!-- End footer -->
             <!-- ============================================================== -->
