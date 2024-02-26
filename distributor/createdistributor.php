@@ -13,6 +13,11 @@
 
   <form action="distributor.php" method="post">
     <div class="mb-3">
+      <label for="id_distributor" class="form-label">id distributor</label>
+      <input type="text" class="form-control" id="id_distributor" name="id_distributor">
+    </div>
+  <form action="distributor.php" method="post">
+    <div class="mb-3">
       <label for="nama_distributor" class="form-label">nama distributor</label>
       <input type="text" class="form-control" id="nama_distributor" name="nama_distributor">
     </div>

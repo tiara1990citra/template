@@ -1,10 +1,10 @@
-<?php include "layout/header.php"; ?>
+<?php include "../layout/header.php"; ?>
 
 <?php
 
-include "koreksi.php";
+include "../koreksi.php";
 
-$sql = "select * from pasok";
+$sql = "select * from penjualan";
 
 $hasil = $koneksi->query($sql);
 
@@ -19,8 +19,8 @@ $hasil = $koneksi->query($sql);
     </div>
     <div id="main-wrapper" data-layout="vertical" data-navbarbg="skin5" data-sidebartype="full"
         data-sidebar-position="absolute" data-header-position="absolute" data-boxed-layout="full">
-        <?php include "layout/navbar.php"; ?>
-        <?php include "layout/menu.php"; ?>
+        <?php include "../layout/navbar.php"; ?>
+        <?php include "../layout/menu.php"; ?>
         <div class="page-wrapper">
             <div class="page-breadcrumb">
                 <div class="row align-items-center">
@@ -48,10 +48,11 @@ $hasil = $koneksi->query($sql);
                                 <thead>
                                     <tr>
                                         <th scope="col">#</th>
-                                        <th scope="col">id pasok</th>
-                                        <th scope="col">id distributor</th>
+                                        <th scope="col">id penjualan</th>
                                         <th scope="col">id buku</th>
+                                        <th scope="col">id kasir</th>
                                         <th scope="col">jumlah</th>
+                                        <th scope="col">total</th>
                                         <th scope="col">tanggal</th>
                                     </tr>
                                 </thead>
@@ -63,19 +64,26 @@ $hasil = $koneksi->query($sql);
                                                 <?= $a; ?>
                                             </th>
                                             <td>
-                                                <?= $terserah['id_pasok']; ?>
-                                            </td>
-                                            <td>
-                                                <?= $terserah['id_distributor']; ?>
+                                                <?= $terserah['id_penjualan']; ?>
                                             </td>
                                             <td>
                                                 <?= $terserah['id_buku']; ?>
                                             </td>
                                             <td>
+                                                <?= $terserah['id_kasir']; ?>
+                                            </td>
+                                            <td>
                                                 <?= $terserah['jumlah']; ?>
                                             </td>
                                             <td>
+                                                <?= $terserah['total']; ?>
+                                            </td>
+                                            <td>
                                                 <?= $terserah['tanggal']; ?>
+                                            </td>
+                                            <td>
+                                                <a href="edit.php?id=<?= $terserah['id_penjualan']; ?>"
+                                                    class="btn btn-primary">edit</a>
                                             </td>
                                         </tr>
                                         <?php $a++;
@@ -87,7 +95,7 @@ $hasil = $koneksi->query($sql);
                 </div>
             </div>
 
-            <?php include "layout/footer.php"; ?>
+            <?php include "../layout/footer.php"; ?>
         </div>
     </div>
     <script src="/assets/plugins/jquery/dist/jquery.min.js"></script>
