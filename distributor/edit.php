@@ -1,31 +1,29 @@
 <?php
 include "../koreksi.php";
 
-$sql = 'SELECT * FROM toko_buku where id_distributor='.$_GET['id'];
+$sql = 'SELECT * FROM toko_buku WHERE id_distributor='.$_GET['id'];
 
 $hasil = $koneksi->query($sql);
 
 $p = ($hasil->fetch_assoc());
 
 
-if(isset($_POST['nama_distributor']))
+if(isset($_POST['alamat']))
 
 {
 
-  $sql = "update toko_buku set 
-      nama_ditributor = '".$_POST['nama_distributor']."',
-      nama_ditributor = '".$_POST['alamat']."',
-      nama_ditributor = '".$_POST['telepon']."'
-  ";
+  $sql = "UPDATE toko_buku SET 
+      nama_distributor = '".$_POST['nama_distributor']."',
+      alamat = '".$_POST['alamat']."',
+      telepon = '".$_POST['telepon']."'
+      WHERE id_distributor=".$_GET['id'];
 
   $koneksi->query($sql);
+  header('location:tabeldistributor.php');
+}; 
+?>
 
-.h  header('location:distributor/tabeldistributor.php');
-  
-}
 
-
-; ?>
 <!doctype html>
 <html lang="en">
 
@@ -39,11 +37,7 @@ if(isset($_POST['nama_distributor']))
 
 <body>
 
-  <form action="distributor.php" method="post">
-  <div class="mb-3">
-      <label for="id_distributor" class="form-label">id distributor</label>
-      <input type="text" class="form-control" id="id_distributor" name="id_distributor">
-    </div>
+  <form action="" method="post">
     <div class="mb-3">
       <label for="nama_distributor" class="form-label">nama distributor</label>
       <input type="text" class="form-control" id="nama_distributor" name="nama_distributor" value="<?= $p['nama_distributor']; ?>">

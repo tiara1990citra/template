@@ -16,9 +16,9 @@
             <label for="id_penjualan" class="form-label">id_penjualan</label>
             <input type="text" class="form-control" id="id_penjualan" name="id_penjualan">
         </div>
-        <div class="mb-3">
+        <div class="mb-3">   
             <label for="id_buku" class="form-label">id_buku</label>
-            <input type="text" class="form-control" id="id_buku" name="id_buku">
+            <input type="text" class="form-control" id="id_buku" name="id_buku">  
         </div>
         <div class="mb-3">
             <label for="id_kasir" class="form-label">id_kasir</label>
@@ -35,7 +35,7 @@
         <div class="mb-3">
             <label for="tanggal" class="form-label">tanggal</label>
             <input type="date" class="form-control" id="tanggal " name="tanggal">
-        </div>
+        </div> 
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 

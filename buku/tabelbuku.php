@@ -103,6 +103,8 @@ $hasil = $koneksi->query($sql);
                                             </td>
                                             <td>
                                                 <a href="edit.php?id=<?= $s['id_buku']; ?>" class="btn btn-primary">edit</a>
+                                                <a href="delete.php?id=<?= $terserah['id_buku']; ?>"
+                                                    class="btn btn-danger">hapus</a>
                                             </td>
                                         </tr>
                                         <?php $a++;

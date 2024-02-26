@@ -84,6 +84,8 @@ $hasil = $koneksi->query($sql);
                                             <td>
                                                 <a href="edit.php?id=<?= $terserah['id_penjualan']; ?>"
                                                     class="btn btn-primary">edit</a>
+                                                <a href="delete.php?id=<?= $terserah['id_penjualan']; ?>"
+                                                    class="btn btn-danger">hapus</a>
                                             </td>
                                         </tr>
                                         <?php $a++;

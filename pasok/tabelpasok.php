@@ -79,6 +79,8 @@ $hasil = $koneksi->query($sql);
                                             </td>
                                             <td>
                                                 <a href="edit.php?id=<?= $terserah['id_pasok']; ?>" class="btn btn-primary">edit</a>
+                                                <a href="delete.php?id=<?= $terserah['id_pasok']; ?>"
+                                                    class="btn btn-danger">hapus</a>
                                             </td>
                                         </tr>
                                         <?php $a++;

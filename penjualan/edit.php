@@ -11,7 +11,7 @@ if (isset($_POST['id_penjualan']))
 {
 
   $sql = "update penjualan set 
-      id_penjuaaln = '" . $_POST['id_penjuaaln'] . "',
+      id_penjualan = '" . $_POST['id_penjualan'] . "',
       id_buku = '" . $_POST['id_buku'] . "',
       id_kasir = '" . $_POST['id_kasir'] . "',
       jumlah = '" . $_POST['jumlah'] . "',
@@ -21,7 +21,7 @@ if (isset($_POST['id_penjualan']))
 
   $koneksi->query($sql);
 
-  header('location:distributor/tabeldistributor.php');
+  header('location:tabelpenjualan.php');
 
 }
 ;?>
@@ -40,30 +40,30 @@ if (isset($_POST['id_penjualan']))
 
 <body>
 
-<form action="penjualan.php" method="post">
+<form action="" method="post">
         <div class="mb-3">
             <label for="id_penjualan" class="form-label">id_penjualan</label>
-            <input type="text" class="form-control" id="id_penjualan" name="id_penjualan">
+            <input type="text" class="form-control" id="id_penjualan" name="id_penjualan" value="<?= $p ['id_penjualan']; ?>">
         </div>
         <div class="mb-3">
             <label for="id_buku" class="form-label">id_buku</label>
-            <input type="text" class="form-control" id="id_buku" name="id_buku">
+            <input type="text" class="form-control" id="id_buku" name="id_buku" value="<?= $p['id_buku']; ?>"  >
         </div>
         <div class="mb-3">
             <label for="id_kasir" class="form-label">id_kasir</label>
-            <input type="text" class="form-control" id="id_kasir " name="id_kasir">
+            <input type="text" class="form-control" id="id_kasir " name="id_kasir" value="<?= $p['id_kasir']; ?>">
         </div>
         <div class="mb-3">
             <label for="jumlah" class="form-label">jumlah</label>
-            <input type="text" class="form-control" id="jumlah " name="jumlah">
+            <input type="text" class="form-control" id="jumlah " name="jumlah" value="<?= $p['jumlah']; ?>">
         </div>
         <div class="mb-3">
             <label for="total" class="form-label">total</label>
-            <input type="text" class="form-control" id="total " name="total">
+            <input type="text" class="form-control" id="total " name="total" value="<?= $p['total']; ?>">
         </div>
         <div class="mb-3">
             <label for="tanggal" class="form-label">tanggal</label>
-            <input type="date" class="form-control" id="tanggal " name="tanggal">
+            <input type="date" class="form-control" id="tanggal " name="tanggal" value="<?= $p['tanggal']; ?>">
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>

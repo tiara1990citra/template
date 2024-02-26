@@ -2,25 +2,22 @@
     <div class="scroll-sidebar">
         <nav class="sidebar-nav">
             <ul id="sidebarnav">
-                <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="../index.php"
-                        aria-expanded="false"><i class="mdi me-2 mdi-gauge"></i><span
-                        class="hide-menu">Dashboard</span></a></li>
                 <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
                         href="/buku/tabelbuku.php" aria-expanded="false">
-                        <i class="mdi me-2 mdi-account-check"></i><span class="hide-menu">Profile</span></a>
+                        <i class="mdi me-2 mdi-account-check"></i><span class="hide-menu">Buku</span></a>
                 </li>
                 <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
                         href="/distributor/tabeldistributor.php" aria-expanded="false"><i class="mdi me-2 mdi-table"></i><span
-                        class="hide-menu">Table</span></a></li>
+                        class="hide-menu">distributor</span></a></li>
                 <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
                         href="/kasir/tabelkasir.php" aria-expanded="false"><i class="mdi me-2 mdi-emoticon"></i><span
-                        class="hide-menu">Icon</span></a></li>
+                        class="hide-menu">kasir</span></a></li>
                 <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
                         href="/pasok/tabelpasok.php" aria-expanded="false"><i class="mdi me-2 mdi-earth"></i><span
-                        class="hide-menu">Google Map</span></a></li>
+                        class="hide-menu">pasok</span></a></li>
                 <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
                         href="/penjualan/tabelpenjualan.php" aria-expanded="false"><i class="mdi me-2 mdi-help-circle"></i><span
-                        class="hide-menu">Error 404</span></a>
+                        class="hide-menu">penjualan</span></a>
                 </li>
             </ul>
         </nav>
