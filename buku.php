@@ -11,7 +11,7 @@
 
 <body>
 
-    <form action="distributor.php" method="post">
+    <form action="delete2.php" method="post">
         <div class="mb-3">
             <label for="id_buku" class="form-label">id_buku</label>
             <input type="text" class="form-control" id="id_buku" name="id_buku">

@@ -13,11 +13,11 @@
 
   <form action="distributor.php" method="post">
     <div class="mb-3">
-      <label for="nama_distributor" class="form-label">Password</label>
+      <label for="nama_distributor" class="form-label">nama distributor</label>
       <input type="text" class="form-control" id="nama_distributor" name="nama_distributor">
     </div>
     <div class="mb-3">
-      <label for="alamat" class="form-label">Password</label>
+      <label for="alamat" class="form-label">alamat</label>
       <input type="text" class="form-control" id="alamat" name="alamat">
     </div>
     <div class="mb-3">
