@@ -43,6 +43,7 @@ $hasil = $koneksi->query($sql);
                     <div class="col-12">
                         <div class="card">
 
+                    <a href="createpasok.php" class="btn btn-primary">Tambah</a>
 
                             <table class="table">
                                 <thead>

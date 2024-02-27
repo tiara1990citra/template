@@ -41,8 +41,11 @@ $hasil = $koneksi->query($sql);
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
-                        <div class="card">
 
+                        
+                        <div class="card">
+                            
+                            <a href="createpenjualan.php" class="btn btn-primary">Tambah</a>
 
                             <table class="table">
                                 <thead>

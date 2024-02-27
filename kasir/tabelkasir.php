@@ -44,6 +44,8 @@ $hasil = $koneksi->query($sql);
                         <div class="card">
 
 
+                        <a href="createkasir.php" class="btn btn-primary">Tambah</a>
+
                             <table class="table">
                                 <thead>
                                     <tr>

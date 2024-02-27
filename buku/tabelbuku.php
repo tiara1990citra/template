@@ -43,6 +43,9 @@ $hasil = $koneksi->query($sql);
                         <div class="card">
 
 
+                        <a href="createbuku.php" class="btn btn-primary">Tambah</a>
+
+
                             <table class="table">
                                 <thead>
                                     <tr>

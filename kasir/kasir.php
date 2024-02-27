@@ -1,6 +1,6 @@
 <?php 
 
-    include "koreksi.PHP";
+    include "../koreksi.PHP";
 
     $jajan = "INSERT INTO kasir(id_kasir,nama,alamat,telepon,status,username,password,akses)values (
         '".$_POST['id_kasir']."',   
